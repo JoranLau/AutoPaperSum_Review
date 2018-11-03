@@ -1,4 +1,16 @@
 There are 2 approaches that this group uses to accomplish their project.
 
 The first one is using TextRank to conduct the summary of a input file. 
-The other one is using training text to train a model by using Machine Learning process.
+The other one is using training text to train a model by using Machine Learning process, 
+such as Recurrent Neural Network and Long Short Term Memory.
+
+In the sprint 2, the project uses Word2Vec to pre-process the texts that being tested, by 
+segmenting them into sentences, which is very convenient for following work. After that,
+it uses TextRank API to simply pick out the highest ranking sentences in the graph generated
+from previous work. By selecting this approach is very convenient when simply devide the text
+and give it a analysis. 
+
+The other approch is to use a Machine Learning process. By using Recurrent Neural Network,this 
+allows it to exhibit temporal dynamic behavior for a time sequence.RNNs can use their internal 
+state  to process sequences of inputs. This makes them applicable to tasks such as unsegmented, 
+connected handwriting recognition or speech recognition, which is suitable for this project.
