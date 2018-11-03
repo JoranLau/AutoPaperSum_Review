@@ -1,3 +1,4 @@
 There are 2 approaches that this group uses to accomplish their project.
 
-The first one is using TextRank to conduct the summary of a input file. The other one is using training text to train a model by using Machine Learning process.
+The first one is using TextRank to conduct the summary of a input file. 
+The other one is using training text to train a model by using Machine Learning process.
